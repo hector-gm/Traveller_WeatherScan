@@ -12,20 +12,71 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div class="container row">
-            <header>Traveller WeatherScan Dashboard</header>
-        </div>  
+            <header>Traveller WeatherScan Dashboard</header> 
         
-        <div class="row">
-                <div class="searches col-md-3">
-                <p class="searchText">Search for a city:</p>
-                <textarea></textarea><button><i class="fa fa-search" aria-hidden="true"></i></button>
-                </div>
-                <div class="cityDisplay col-md-9">
-                    <div class="showCityInfo"></div>
-                </div>
+        <div id="searches" class="container">
+            <form>
+                <label>Search for a city:</label>
+                <input input name="searchText" class="form-control" id="textInput" type="text">
+            </form>
+            <button id="lookInfo" class="fa fa-search"> </button>
+        </div>
+       
+
+        <div class="cityDisplay">
+            <h3 id="showCity"></h3>
+            <h3 id="date"></h3>
+            <h3 id="weatherIcon"></h3>
+            <p>Temperature: <span id="temperature"></span></p>
+            <p>Humidity: <span id="humidity"></span></p>
+            <p>Wind Speed: <span id="wind"></span></p>
+            <p>UV Index: <span id="uvIndex"></span></p>
+        </div>
+
+        <div class="container">
+            <h2 id="Your Five Day Forecast:"></h2>
+
+            <div id="dayDetails" class="days">
+                <h3 id="showDate"></h3>
+                <span id="weatherIcon"></span>
+                <p>Temperature:<span id="temperature"></span></p>
+                <p>Humidity:<span id="humidity"></span></p>
+            </div>
+
+            <div id="dayDetails" class="days">
+                <h3 id="showDate"></h3>
+                <span id="weatherIcon"></span>
+                <p>Temperature:<span id="temperature"></span></p>
+                <p>Humidity:<span id="humidity"></span></p>
+            </div>
+
+            <div id="dayDetails" class="days">
+                <h3 id="showDate"></h3>
+                <span id="weatherIcon"></span>
+                <p>Temperature:<span id="temperature"></span></p>
+                <p>Humidity:<span id="humidity"></span></p>
+            </div>
+
+            <div id="dayDetails" class="days">
+                <h3 id="showDate"></h3>
+                <span id="weatherIcon"></span>
+                <p>Temperature:<span id="temperature"></span></p>
+                <p>Humidity:<span id="humidity"></span></p>
+            </div>
+
+            <div id="dayDetails" class="days">
+                <h3 id="showDate"></h3>
+                <span id="weatherIcon"></span>
+                <p>Temperature:<span id="temperature"></span></p>
+                <p>Humidity:<span id="humidity"></span></p>
+            </div>
         </div>
         
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
         <script src="script.js" async defer></script>
+        
+
     </body>
 </html>

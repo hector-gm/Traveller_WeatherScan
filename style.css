@@ -9,28 +9,28 @@ header{
     width: auto ;
 }
 
-.searches{
+#searches{
     background-color: darkgray;
     padding: 1rem;
     text-align: left;
 }
 
-.searchText{
+label{
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     font-size: 25px;
 }
 
-button{
+#lookInfo{
     width: 40px;
     height: 40px;
     color: white;
     background-color: rgb(63, 125, 201);
     border-radius: 5px;
-    font-size: 20px;
+    font-size: 10px;
 }
 
-textarea {
+#textInput {
     resize: none;
     height: 35px;
     width: 200px;
