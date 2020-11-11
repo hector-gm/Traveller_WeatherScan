@@ -13,7 +13,7 @@ Repository is held at https://github.com/hector-gm/Traveller_WeatherScan
 ## Sample
 Live sample of the project is hosted at https://hector-gm.github.io/Traveller_WeatherScan/
 
-![Traveller WeatherScan Homepage](Traveller_WeatherScan_Homepage.png)
+![Traveller WeatherScan Homepage](Traveller_WeatherScan_index.png)
 
 ## Usage
 When page loads, users can type a city name into the search bar and submit their city name value with the search button. The website then pulls data from the OpenWeather Map API to display current weather information matching the user's input. 
