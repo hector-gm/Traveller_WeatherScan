@@ -13,6 +13,8 @@ header{
     background-color: darkgray;
     padding: 1rem;
     text-align: left;
+    width: 30rem;
+    float: left;
 }
 
 label{
@@ -27,11 +29,34 @@ label{
     color: white;
     background-color: rgb(63, 125, 201);
     border-radius: 5px;
-    font-size: 10px;
+    font-size: 20px;
 }
 
 #textInput {
     resize: none;
     height: 35px;
     width: 200px;
+}
+
+.cityDisplay {
+    padding: 2rem;
+    float: right;
+    height: auto;
+    width: 55rem;
+    border: 3px solid black;
+}
+
+.container {
+    float: right;
+    padding: 2rem;
+} 
+
+.days {
+    font-weight: bold;
+    display: inline-block;
+    background-color: rgb(63, 125, 201);
+    color: white;
+    height: 35vh;
+    width: calc((100%/5)-0.5em);
+    padding: 1em;
 }

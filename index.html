@@ -9,21 +9,22 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
             <header>Traveller WeatherScan Dashboard</header> 
         
-        <div id="searches" class="container">
+        <div id="searches" class="container col">
             <form>
                 <label>Search for a city:</label>
                 <input input name="searchText" class="form-control" id="textInput" type="text">
             </form>
-            <button id="lookInfo" class="fa fa-search"> </button>
+            <button id="lookInfo" class="searchIcon searchIcon:Hover">&#x1F50D;</button>
         </div>
        
 
-        <div class="cityDisplay">
+        <div class="cityDisplay col">
             <h3 id="showCity"></h3>
             <h3 id="date"></h3>
             <h3 id="weatherIcon"></h3>
@@ -33,12 +34,13 @@
             <p>UV Index: <span id="uvIndex"></span></p>
         </div>
 
-        <div class="container">
-            <h2 id="Your Five Day Forecast:"></h2>
+        <div class="container row">
+            <h2>Your Five Day Forecast:</h2>
 
             <div id="dayDetails" class="days">
                 <h3 id="showDate"></h3>
                 <span id="weatherIcon"></span>
+                <p></p>
                 <p>Temperature:<span id="temperature"></span></p>
                 <p>Humidity:<span id="humidity"></span></p>
             </div>

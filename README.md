@@ -16,7 +16,7 @@ Live sample of the project is hosted at https://hector-gm.github.io/Traveller_We
 ![Traveller WeatherScan Homepage](Traveller_WeatherScan_Homepage.png)
 
 ## Usage
-When page loads, users can type a city name into the search bar and submit their city name value with the search button. The website then pulls data from the OpenWeather API to display current weather information matching the user's input. 
+When page loads, users can type a city name into the search bar and submit their city name value with the search button. The website then pulls data from the OpenWeather Map API to display current weather information matching the user's input. 
 
 Additionally, the website displays the five day forecast for the destination city below the current weather.
 
